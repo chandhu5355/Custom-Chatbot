@@ -7,7 +7,7 @@ import json
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 GEMINI_API_URL = "https://gemini.api.endpoint"
-API_KEY = "AIzaSyBChI0wzUmPRFUnCeU0b-JJI8P-Bxax2rY"
+API_KEY = "Your API key"
 
 app = Flask(__name__)
 api = Api(app)
